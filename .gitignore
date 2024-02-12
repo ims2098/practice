@@ -22,3 +22,27 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+front-end/.DS_Store
+front-end/node_modules
+front-end/dist
+
+
+# local env files
+front-end/.env.local
+front-end/.env.*.local
+
+# Log files
+front-end/npm-debug.log*
+front-end/yarn-debug.log*
+front-end/yarn-error.log*
+front-end/pnpm-debug.log*
+
+# Editor directories and files
+front-end/.idea
+front-end/.vscode
+front-end/*.suo
+front-end/*.ntvs*
+front-end/*.njsproj
+front-end/*.sln
+front-end/*.sw?
